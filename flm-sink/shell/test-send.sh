@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+curl -X POST -H 'Content-Type: application/json' --data '[{"body":"{\"id\":null,\"created\":1498805823087,\"creater\":\"FlumeApiLogger\",\"modified\":1498805823087,\"modifier\":\"FlumeApiLogger\",\"apimethodname\":\"(not true call, just test insert) taobao.inventory.query\",\"channelId\":\"018\",\"cartId\":23,\"callTime\":\"2017-06-30T06:57:03.087Z[UCT]\",\"timeZone\":\"Coordinated Universal Time\",\"username\":\"Jonas Testing\",\"computerName\":\"DubboServer\",\"ip\":\"10.0.0.96\",\"mac\":\"0:C:29:7D:35:24\",\"active\":true,\"thirdPart\":\"taobao\"}"}]' http://localhost:12341/
